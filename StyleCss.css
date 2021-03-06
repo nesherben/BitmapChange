@@ -1,0 +1,45 @@
+/*
+* Fichero CSS para los botones
+* 
+* Autor: Néstor Hernández Benito
+*/
+
+#Botones{
+    -fx-text-style:Roboto,Ubuntu Bold;
+    -fx-color: white;
+    -fx-text-fill:#ffffff;
+    -fx-background-color:#00bcd4;
+    -fx-transition-duration: 0.8s;
+}
+#Botonesa{
+    -fx-text-style:Roboto,Ubuntu Bold;
+    -fx-color: white;
+    -fx-text-fill:#ffffff;
+    -fx-background-color:#3f51b5;
+    -fx-transition-duration: 0.8s;
+}
+#Botonesb{
+    -fx-text-style:Roboto,Ubuntu Bold;
+    -fx-color: white;
+    -fx-text-fill:#ffffff;
+    -fx-background-color:#f44336;
+    -fx-transition-duration: 0.8s;
+}
+#Botones:hover{
+    -fx-effect: dropshadow( one-pass-box, #000000 , 5,0,0,0);
+    
+}
+
+#Botonesa:hover{
+    -fx-effect: dropshadow( one-pass-box, #000000 , 5,0,0,0);
+    
+}
+#Botonesb:hover{
+    -fx-effect: dropshadow( one-pass-box, #000000 , 5,0,0,0);
+    
+}
+#scene{
+    
+    -fx-background:#ffffff;
+    
+}
